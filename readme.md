@@ -10,6 +10,29 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" width="20%"/>
     </a>
 
+## Overview
+This project implements a **Shopping Cart System** for eCommerce platforms using **Domain-Driven Design (DDD)** principles. It is designed to highlight how a real-world eCommerce system can leverage DDD to create highly scalable, maintainable, and domain-oriented solutions.
+
+## Features
+- **Domain-Driven Design**: Cleanly separated domain, application, infrastructure, and user interface layers.
+- **Rich Domain Model**: Encapsulation of business rules and constraints directly within the domain model.
+- **Extensibility**: Designed to accommodate additional business use cases and domain changes.
+- **Infrastructure Integration**: Example implementations for persistence, messaging, and API layers.
+- **Best Practices**: Incorporates DDD patterns like Aggregates, Value Objects, Repositories, and Domain Events.
+
+## Core Functionalities
+- Shopping cart creation and management
+- Adding and removing products in the cart
+- Quantity adjustments and validation rules
+- Calculation of totals, discounts, and taxes
+- Cart checkout and state transition management
+
+## Getting Started
+To run this project locally, follow these steps:
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/Egerion/ecommerce-shopping-cart-domain-driven-design.git
+
 
 ## Project Structure
 ```plaintext
